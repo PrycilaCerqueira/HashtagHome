@@ -1,4 +1,4 @@
-/* Global */
+/* ---------- Global ---------- */
 *{
   margin: 0;
   padding: 0;
@@ -8,6 +8,7 @@
 html{
   font-size: 62.5%;
 }
+
 body{
   font-family: "Montserrat", sans-serif;
   color: #404040;
@@ -15,22 +16,21 @@ body{
   line-height: 1.4;
 }
 
+.secao{
+  padding: 7.63svh 2rem;
+}
+
+.container{
+  margin: 0 18.72rem;
+}
 h1 {
-  font-size: 3.5rem;
+  font-size: 3.22rem;
   font-weight: 600;
 }
 
 h2 {
-  font-size: 3.5rem;
+  font-size: 2.76rem;
   font-weight: 400;
-}
-
-p {
-  font-size: 1.6rem;
-}
-
-strong {
-  font-weight: 600;
 }
 
 .botao {
@@ -39,11 +39,11 @@ strong {
   text-decoration: none;
 }
 
-.realce-semibold {
+strong, .realce-semibold {
   font-weight: 600;
 }
 
-/* Cabeçalho */
+/* ---------- Cabeçalho ---------- */
 .cabecalho{
   display: flex;
   justify-content: space-between;
@@ -66,6 +66,7 @@ strong {
 .lista-navegacao ul {
   list-style: none;
 }
+
 .item-lista-navegacao a {
   color: #112e61;
   font-size: 1.4rem;
@@ -84,12 +85,43 @@ strong {
 }
 
 
-/* Seção Hero */
+/* ---------- Seção Hero ---------- */
+.hero-secao {
+  background-image: url(https://elegant-rabanadas-4b0397.netlify.app/Imagens/Formato%20Novo/BACKGROUN-banner-01.webp);
+  background-position: 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.hero-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4rem;
+}
+
+.hero-botao {
+  display: block;
+  color: white;
+  text-align: center;
+  border-radius: 3rem;
+  padding: 0.65rem 2.5rem;
+  background-image: linear-gradient(180deg,#ff645e, #ff9253);
+  box-shadow: 0 0.21rem 0.8 rem rgba(0, 0, 0, 0.15);
+  margin-top: 1.6rem;
+}
+
+.hero-iframe{
+  aspect-ratio: 16/9;
+  max-width: 40rem;
+  border-radius: 2.5rem;
+}
+
 .hero-paragrafo {
   font-size: 1.9rem;
 }
 
-/* Seção Conteúdos Gratuitos */
+/* ---------- Seção Conteúdos Gratuitos ---------- */
 .gratuito-realce {
   color: #7a40be;
   font-weight: 600;
@@ -105,7 +137,7 @@ strong {
   text-decoration: none;
 }
 
-/* Seção Diferenciais */
+/* ---------- Seção Diferenciais ---------- */
 .diferenciais-p {
   font-size: 1.9rem;
 }
@@ -127,10 +159,10 @@ strong {
   text-decoration: none;
 }
 
-/* Seção O que falam */
+/* ---------- Seção O que falam ---------- */
 
 
-/* Seção Blog */
+/* ---------- Seção Blog ---------- */
 .blog-postadoem {
   font-size: 1.5rem;
 }
@@ -151,7 +183,7 @@ strong {
   font-size: 1.7rem;
 }
 
-/* Seção Como ajudar */
+/* ---------- Seção Como ajudar ---------- */
 .comoajudar-lista,
 .comoajudar-paragrafo {
   font-size: 1.9rem;
@@ -167,7 +199,7 @@ strong {
   font-weight: 600;
 }
 
-/* Rodapé */
+/* ---------- Rodapé ---------- */
 .rodape-titulo {
   font-weight: 600;
   font-size: 2.2rem;
