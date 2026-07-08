@@ -137,6 +137,18 @@ strong, .realce-semibold {
 }
 
 /* ---------- Seção Conteúdos Gratuitos ---------- */
+.gratuito-secao{
+  display: flex;
+}
+
+.gratuito-container{
+  display: flex;
+}
+
+.gratuito-caixas-cursos {
+  display: flex;
+}
+
 .gratuito-titulo-div {
   display: flex;
   align-items: center;
@@ -151,6 +163,11 @@ strong, .realce-semibold {
 .gratuito-h3 {
   font-size: 2.3rem;
   font-weight: 700;
+}
+
+.img-conteudos {
+  max-height: 29.2rem;
+  padding-top: 5rem;
 }
 
 .gratuito-cursos-div a img{
