@@ -36,6 +36,10 @@ h2 {
   font-weight: 400;
 }
 
+ul{
+  list-style: none;
+}
+
 .botao {
   font-size: 2.4rem;
   font-weight: 700;
@@ -121,7 +125,7 @@ strong, .realce-semibold {
   border: solid 0.2rem #ff9253;
 }
 
-.hero-iframe{
+.hero-iframe {
   aspect-ratio: 16/9;
   max-width: 40rem;
   border-radius: 2.5rem;
@@ -133,7 +137,7 @@ strong, .realce-semibold {
 }
 
 /* ---------- Seção Conteúdos Gratuitos ---------- */
-.gratuito-titulo-div{
+.gratuito-titulo-div {
   display: flex;
   align-items: center;
   gap: 1.5rem;
@@ -153,16 +157,36 @@ strong, .realce-semibold {
   display: inline-block;
   height: 2.5rem;
   width: 2.5rem;
-  border: solid 0.2rem #e7e7e7;
   box-shadow: inset 0 0 0.4rem 0.25rem rgba(0, 0, 0, 0.25);
   padding: 1rem;
   border-radius: 50%;
-
 }
+
 .gratuito-link-lista {
   font-size: 1.9rem;
   text-decoration: none;
+  color: inherit;
 }
+
+.gratuito-link-lista:active, .gratuito-link-lista:hover {
+  text-decoration: underline;
+}
+
+.gratuito-link-lista li {
+  text-align: center;
+  background-color: #EEEE;
+  padding: 0.42rem 3.2rem;
+  margin: 1rem;
+  border-radius: 5rem;
+  box-shadow: inset 0 0 0.4rem 0.25rem rgba(0,0,0,0.25);
+}
+
+.gratuito-link-lista li img {
+  height: 1.8rem;
+  width: 1.8rem;
+  padding-right: 1rem;
+}
+
 
 /* ---------- Seção Diferenciais ---------- */
 .diferenciais-p {
