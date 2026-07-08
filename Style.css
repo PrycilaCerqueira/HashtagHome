@@ -27,6 +27,7 @@ body{
 
 h1 {
   font-size: 3.22rem;
+  line-height: 1.2;
   font-weight: 600;
 }
 
@@ -128,9 +129,16 @@ strong, .realce-semibold {
 
 .hero-paragrafo {
   font-size: 1.9rem;
+  padding-top: 1.5rem;
 }
 
 /* ---------- Seção Conteúdos Gratuitos ---------- */
+.gratuito-titulo-div{
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
 .gratuito-realce {
   color: #7a40be;
   font-weight: 600;
@@ -141,6 +149,16 @@ strong, .realce-semibold {
   font-weight: 700;
 }
 
+.gratuito-cursos-div a img{
+  display: inline-block;
+  height: 2.5rem;
+  width: 2.5rem;
+  border: solid 0.2rem #e7e7e7;
+  box-shadow: inset 0 0 0.4rem 0.25rem rgba(0, 0, 0, 0.25);
+  padding: 1rem;
+  border-radius: 50%;
+
+}
 .gratuito-link-lista {
   font-size: 1.9rem;
   text-decoration: none;
