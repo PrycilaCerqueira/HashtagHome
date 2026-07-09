@@ -139,14 +139,25 @@ strong, .realce-semibold {
 /* ---------- Seção Conteúdos Gratuitos ---------- */
 .gratuito-secao{
   display: flex;
+  background-image: url("https://elegant-rabanadas-4b0397.netlify.app/Imagens/Formato%20Novo/BACKGROUN-banner-02.webp");
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .gratuito-container{
   display: flex;
 }
 
+.img-conteudos {
+  max-height: 29.2rem;
+  padding-top: 5rem;
+}
+
 .gratuito-caixas-cursos {
   display: flex;
+  flex-direction:row;
+  gap: 5rem;
 }
 
 .gratuito-titulo-div {
@@ -163,11 +174,24 @@ strong, .realce-semibold {
 .gratuito-h3 {
   font-size: 2.3rem;
   font-weight: 700;
+  text-align: center;
+  color:white;
+  background-image: linear-gradient(#7a40be, rgba(64, 2, 64, 0.515));
+  border-radius: 1rem;
+  padding: 0.1rem 1.8rem;
 }
 
-.img-conteudos {
-  max-height: 29.2rem;
-  padding-top: 5rem;
+.gratuito-caixa-cursos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.gratuito-cursos-div {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0.3rem;
 }
 
 .gratuito-cursos-div a img{
