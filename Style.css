@@ -69,6 +69,7 @@ strong, .realce-semibold {
   background-color: white;
   padding: 1.6rem 3.2rem;
   box-shadow: 0 0.2rem 0.4rem rgba(0, 0, 0, 0.15);
+  z-index: 999;
 }
 
 .lista-navegacao{
@@ -139,7 +140,7 @@ strong, .realce-semibold {
 
 /* ---------- Seção Conteúdos Gratuitos ---------- */
 .gratuito-secao{
-  display: flex;
+  /* display: flex; */
   background-image: url("https://elegant-rabanadas-4b0397.netlify.app/Imagens/Formato%20Novo/BACKGROUN-banner-02.webp");
   background-position: 50%;
   background-repeat: no-repeat;
@@ -159,12 +160,14 @@ strong, .realce-semibold {
   display: flex;
   flex-direction:row;
   gap: 5rem;
+  padding: 2rem;
 }
 
 .gratuito-titulo-div {
   display: flex;
   align-items: center;
   gap: 1.5rem;
+  z-index: 1;
 }
 
 .gratuito-realce {
@@ -180,12 +183,16 @@ strong, .realce-semibold {
   background-image: linear-gradient(90deg,#aa56e6, #6d42b9);
   border-radius: 1rem;
   padding: 0.1rem 1.8rem;
+  transform: rotate(-0.012turn);
+  z-index: 1;
 }
 
 .gratuito-caixa-cursos {
   display: flex;
   flex-direction: column;
   align-items: center;
+  box-shadow: inset 0 0 0.2rem 0.25rem rgba(0, 0, 0, 0.15);
+  border-radius: 1rem;
 }
 
 .gratuito-cursos-div {
@@ -231,14 +238,42 @@ strong, .realce-semibold {
 
 
 /* ---------- Seção Diferenciais ---------- */
-.diferenciais-p {
-  font-size: 1.9rem;
+
+.diferenciais-secao {
+
+}
+
+
+.diferencias-container {
+
+}
+
+.diferenciais-titulo-caixa {
+  display: flex;
+  color: white;
+  background-image: linear-gradient(225deg, #196b9f, #1a82a7);
+  border-top-left-radius: 2rem;
+  border-top-right-radius: 2rem;
+  gap: 5rem;
+  padding: 5rem;
+  padding-bottom: 12rem;
+}
+
+.diferenciais-h2 {
+  border-left: solid 0.5rem #ffb20f;
+  padding:1.5rem;
 }
 
 .diferenciais-h3 {
   color: #005e88;
   font-size: 2.4rem;
   font-weight: 600;
+  
+}
+
+.diferenciais-p {
+  font-size: 1.9rem;
+  text-align: right;
 }
 
 .diferenciais-h3-empresas {
