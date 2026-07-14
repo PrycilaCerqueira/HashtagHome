@@ -352,16 +352,26 @@ strong,
 }
 
 .oquefalam-carrossel {
-  align-content: center;
-  padding: 5rem;
 }
 
-.oquefalam-carrossel img {
+.oquefalam-carrossel-img {
   background-color: #7489af;
   border-radius: 2.5rem;
   aspect-ratio: 16/9;
   max-height: 18rem;
-  max-width: 32rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+}
+
+.carrossel-img--1 {
+  background-image: url(https://i3.ytimg.com/vi/N_EZD04zmrw/hqdefault.jpg);
+}
+.carrossel-img--2 {
+  background-image: url(https://i3.ytimg.com/vi/auqWeBJLJHY/hqdefault.jpg);
+}
+.carrossel-img--3 {
+  background-image: url(https://i3.ytimg.com/vi/FD79IpCaM1Y/hqdefault.jpg);
 }
 
 .item-navegacao {
