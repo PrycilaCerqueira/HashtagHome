@@ -1,26 +1,26 @@
 /* ---------- Global ---------- */
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: content-box;
 }
 
-html{
+html {
   font-size: 62.5%;
 }
 
-body{
+body {
   font-family: "Montserrat", sans-serif;
   color: #404040;
   font-size: 1.6rem;
   line-height: 1.4;
 }
 
-.secao{
+.secao {
   padding: 7.63rem 2rem;
 }
 
-.container{
+.container {
   max-width: 100rem;
   margin: 0 auto;
 }
@@ -37,14 +37,14 @@ h2 {
   line-height: 1.1;
 }
 
-ul{
+ul {
   list-style: none;
 }
 
 .botao {
   font-size: 2.4rem;
   font-weight: 700;
-  color: white;;  
+  color: white;
   text-align: center;
   text-decoration: none;
   border-radius: 3rem;
@@ -52,19 +52,19 @@ ul{
   box-shadow: 0 0.21rem 0.8rem rgba(0, 0, 0, 0.15);
   border-bottom: solid 0.4rem;
   border-right: solid 0.4rem;
-
 }
 
-strong, .realce-semibold {
+strong,
+.realce-semibold {
   font-weight: 600;
 }
 
 /* ---------- Cabeçalho ---------- */
-.cabecalho{
+.cabecalho {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  position:sticky;
+  position: sticky;
   top: 0;
   background-color: white;
   padding: 1.6rem 3.2rem;
@@ -72,7 +72,7 @@ strong, .realce-semibold {
   z-index: 999;
 }
 
-.lista-navegacao{
+.lista-navegacao {
   display: flex;
   gap: 2.5rem;
   list-style: none;
@@ -95,10 +95,10 @@ strong, .realce-semibold {
   margin-left: 0.4rem;
 }
 
-.item-lista-navegacao a:hover, .item-lista-navegacao a:active {
+.item-lista-navegacao a:hover,
+.item-lista-navegacao a:active {
   color: #f60;
 }
-
 
 /* ---------- Seção Hero ---------- */
 .hero-secao {
@@ -116,12 +116,13 @@ strong, .realce-semibold {
 
 .hero-botao {
   display: block;
-  background-image: linear-gradient(180deg,#ff645e, #ff9253);
+  background-image: linear-gradient(180deg, #ff645e, #ff9253);
   border-color: #993c38;
   margin-top: 1.6rem;
 }
 
-.hero-botao:hover, .hero-botao:active {
+.hero-botao:hover,
+.hero-botao:active {
   background-image: none;
   background-color: #ff9253;
   border: solid 0.2rem #ff9253;
@@ -139,7 +140,7 @@ strong, .realce-semibold {
 }
 
 /* ---------- Seção Conteúdos Gratuitos ---------- */
-.gratuito-secao{
+.gratuito-secao {
   /* display: flex; */
   background-image: url("https://elegant-rabanadas-4b0397.netlify.app/Imagens/Formato%20Novo/BACKGROUN-banner-02.webp");
   background-position: 50%;
@@ -147,7 +148,7 @@ strong, .realce-semibold {
   background-size: cover;
 }
 
-.gratuito-container{
+.gratuito-container {
   display: flex;
 }
 
@@ -158,7 +159,7 @@ strong, .realce-semibold {
 
 .gratuito-caixas-cursos {
   display: flex;
-  flex-direction:row;
+  flex-direction: row;
   gap: 5rem;
   padding: 2rem;
 }
@@ -179,8 +180,8 @@ strong, .realce-semibold {
   font-size: 2.3rem;
   font-weight: 700;
   text-align: center;
-  color:white;
-  background-image: linear-gradient(90deg,#aa56e6, #6d42b9);
+  color: white;
+  background-image: linear-gradient(90deg, #aa56e6, #6d42b9);
   border-radius: 1rem;
   padding: 0.1rem 1.8rem;
   transform: rotate(-0.012turn);
@@ -202,7 +203,7 @@ strong, .realce-semibold {
   gap: 0.3rem;
 }
 
-.gratuito-cursos-div a img{
+.gratuito-cursos-div a img {
   display: inline-block;
   height: 2.5rem;
   width: 2.5rem;
@@ -217,17 +218,18 @@ strong, .realce-semibold {
   color: inherit;
 }
 
-.gratuito-link-lista:active, .gratuito-link-lista:hover {
+.gratuito-link-lista:active,
+.gratuito-link-lista:hover {
   text-decoration: underline;
 }
 
 .gratuito-link-lista li {
   text-align: center;
-  background-color: #EEEE;
+  background-color: #eeee;
   padding: 0.42rem 3.2rem;
   margin: 1rem;
   border-radius: 5rem;
-  box-shadow: inset 0 0 0.4rem 0.25rem rgba(0,0,0,0.25);
+  box-shadow: inset 0 0 0.4rem 0.25rem rgba(0, 0, 0, 0.25);
 }
 
 .gratuito-link-lista li img {
@@ -235,7 +237,6 @@ strong, .realce-semibold {
   width: 1.8rem;
   padding-right: 1rem;
 }
-
 
 /* ---------- Seção Diferenciais ---------- */
 
@@ -278,14 +279,14 @@ strong, .realce-semibold {
 
 .diferenciais-h2 {
   border-left: solid 0.5rem #ffb20f;
-  padding:1.5rem;
+  padding: 1.5rem;
 }
 
 .diferenciais-titulo-p {
   font-size: 1.9rem;
 }
 
-.diferenciais-img{
+.diferenciais-img {
   display: inline-block;
   position: absolute;
   top: 0;
@@ -296,7 +297,7 @@ strong, .realce-semibold {
   width: 10rem;
   height: 10rem;
   box-shadow: inset 0 0 0.8rem 0.2rem rgba(0, 0, 0, 0.1);
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
 }
 
 .diferenciais-h3 {
@@ -320,20 +321,74 @@ strong, .realce-semibold {
   text-decoration: none;
 }
 
-.diferenciais-empresas-logos > img {
+.diferenciais-empresas-logos img {
   filter: grayscale(100%);
-  -webkit-filter: grayscale(100%);
-  height: 3rem;
+  opacity: 75%;
+  height: 4rem;
   padding-left: 5rem;
 }
 
-.diferenciais-conteudo-p{
+.diferenciais-conteudo-p {
   line-height: 1.3;
   margin-bottom: 1rem;
 }
 
 /* ---------- Seção O que falam ---------- */
 
+.oquefalam-secao {
+  background-image: url(https://elegant-rabanadas-4b0397.netlify.app/Imagens/Formato%20Novo/BACKGROUN-banner-04.webp);
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.oquefalam-container {
+}
+
+.oquefalam-titulo-caixa {
+  display: flex;
+  gap: 1.6rem;
+  color: white;
+}
+
+.oquefalam-carrossel {
+  align-content: center;
+  padding: 5rem;
+}
+
+.oquefalam-carrossel img {
+  background-color: #7489af;
+  border-radius: 2.5rem;
+  aspect-ratio: 16/9;
+  max-height: 18rem;
+  max-width: 32rem;
+}
+
+.item-navegacao {
+  cursor: pointer;
+  display: inline-block;
+  background-color: #86a8bc;
+  border-radius: 5rem;
+  width: 1.2rem;
+  height: 1.2rem;
+}
+
+.ativa {
+  background-color: #14577f;
+}
+
+.oquefalam-botao {
+  background-image: linear-gradient(180deg, #196c9f, #1a80a7);
+  border-right-color: #14577f;
+  border-bottom-color: #14577f;
+}
+
+.oquefalam-botao:active,
+.oquefalam-botao:hover {
+  border: solid 0.2rem #1a80a7;
+  background-color: #1a80a7;
+  background-image: none;
+}
 
 /* ---------- Seção Blog ---------- */
 .blog-postadoem {
