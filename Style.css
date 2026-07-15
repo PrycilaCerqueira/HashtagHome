@@ -439,6 +439,32 @@ strong,
   background-image: none;
 }
 
+/* ---------- Seção Na Mídia ---------- */
+.na-midia-secao {
+  background-image: url(https://www.hashtagtreinamentos.com/wp-content/uploads/2022/06/BACKGROUND-Banner-05_1.png);
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.na-midia-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.na-midia-titulo-caixa,
+.na-midia-logos {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+}
+
+.na-midia-titulo-caixa img {
+  height: 2rem;
+}
+
 /* ---------- Seção Blog ---------- */
 .blog-postadoem {
   font-size: 1.5rem;
