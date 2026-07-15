@@ -343,22 +343,61 @@ strong,
 }
 
 .oquefalam-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
 }
 
 .oquefalam-titulo-caixa {
   display: flex;
+  justify-content: center;
   gap: 1.6rem;
   color: white;
 }
 
 .oquefalam-carrossel {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  padding-top: 1rem;
+}
+
+.oquefalam-botao-seta {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+}
+
+.seta--esquerda {
+  left: 0;
+  transform: translate(-140%, -50%);
+}
+
+.seta--direita {
+  right: 0;
+  transform: translate(145%, -50%);
+}
+
+.seta--play {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .oquefalam-carrossel-img {
+  position: relative;
   background-color: #7489af;
+  background-blend-mode: multiply;
   border-radius: 2.5rem;
-  aspect-ratio: 16/9;
-  max-height: 18rem;
+  aspect-ratio: 16 / 9;
+  flex: 0 0 28%;
+  min-width: 28rem;
+  max-width: 28rem;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50%;
@@ -378,12 +417,12 @@ strong,
   cursor: pointer;
   display: inline-block;
   background-color: #86a8bc;
-  border-radius: 5rem;
-  width: 1.2rem;
-  height: 1.2rem;
+  border-radius: 50%;
+  width: 1rem;
+  height: 1rem;
 }
 
-.ativa {
+.item-navegacao.ativa {
   background-color: #14577f;
 }
 
