@@ -470,11 +470,7 @@ strong,
   position: relative;
   padding: 4.88em;
   padding-top: 7.63rem;
-<<<<<<< HEAD
   box-shadow: inset 0 0 0.2rem 0.4rem rgba(0, 0, 0, 0.15);
-=======
-  box-shadow: inset 0 0 4rem 2rem rgba(0, 0, 0, 0.15);
->>>>>>> 0ec9860e428e469d64ec73e96f171d408bd26881
   border-radius: 2.5rem;
 }
 
@@ -486,11 +482,7 @@ strong,
 }
 
 .blog-posts {
-<<<<<<< HEAD
   box-shadow: inset 0 0 0.2rem 0.4rem rgba(0, 0, 0, 0.15);
-=======
-  box-shadow: inset 0 0 4rem 2rem rgba(0, 0, 0, 0.15);
->>>>>>> 0ec9860e428e469d64ec73e96f171d408bd26881
   width: 46.87rem;
   padding: 2.5rem;
   border-radius: 2.5rem;
@@ -535,6 +527,19 @@ strong,
 }
 
 /* ---------- Seção Como ajudar ---------- */
+.comoajudar-secao {
+  background-image: url(https://elegant-rabanadas-4b0397.netlify.app/Imagens/Formato%20Novo/BACKGROUND-banner-07.webp);
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.comoajudar-container {
+  background-color: white;
+  border-radius: 2rem;
+  padding: 3rem;
+}
+
 .comoajudar-lista,
 .comoajudar-paragrafo {
   font-size: 1.9rem;
