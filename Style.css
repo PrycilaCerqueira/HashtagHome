@@ -488,6 +488,12 @@ strong,
   border-radius: 2.5rem;
 }
 
+.blog-posts:active,
+.blog-posts:hover {
+  transition: transform ease-in 200ms;
+  transform: scale(1.05);
+}
+
 .blog-titulo-caixa {
   position: absolute;
   top: 0;
@@ -527,18 +533,26 @@ strong,
 }
 
 /* ---------- Seção Como ajudar ---------- */
+.comoajudar-secao {
+  padding: 0;
+}
 
 .comoajudar-sec-laranja {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   background-image: url(https://elegant-rabanadas-4b0397.netlify.app/Imagens/Formato%20Novo/BACKGROUND-banner-07.webp);
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
+  padding: 7.63rem 2rem;
+  gap: 3rem;
 }
 
 .comoajudar-lista {
   background-color: white;
   border-radius: 2rem;
-  padding: 3rem;
+  padding: 2.5rem;
 }
 
 .comoajudar-lista,
@@ -550,6 +564,13 @@ strong,
 .comoajudar-paragrafo a {
   color: #008ff7;
   font-weight: 600;
+}
+
+.comoajudar-titulo-caixa {
+  color: white;
+  background-image: linear-gradient(90deg, #14a1d5, #1a8ad4);
+  padding: 0.42rem 1.6rem;
+  border-radius: 1rem;
 }
 
 .comoajudar-paragrafo b {
