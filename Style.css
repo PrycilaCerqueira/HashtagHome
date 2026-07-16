@@ -527,14 +527,15 @@ strong,
 }
 
 /* ---------- Seção Como ajudar ---------- */
-.comoajudar-secao {
+
+.comoajudar-sec-laranja {
   background-image: url(https://elegant-rabanadas-4b0397.netlify.app/Imagens/Formato%20Novo/BACKGROUND-banner-07.webp);
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.comoajudar-container {
+.comoajudar-lista {
   background-color: white;
   border-radius: 2rem;
   padding: 3rem;
