@@ -623,6 +623,11 @@ strong,
   border-right-color: #664a10;
 }
 
+.minicurso-botao:active,
+.minicurso-botao:hover {
+  border: solid 0.2rem #ffba29;
+}
+
 /* ---------- Rodapé ---------- */
 .rodape-container {
   display: grid;
@@ -697,6 +702,11 @@ strong,
   background-color: #1a77a4;
   border-bottom-color: #0c374d;
   border-right-color: #0c374d;
+}
+
+.rodape-newsletter-botao:active,
+.rodape-newsletter-botao:hover {
+  border: #1a77a4;
 }
 
 .whatsapp-logo {
