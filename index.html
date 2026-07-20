@@ -1,4 +1,4 @@
-<!doctype html>
+  <!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -719,7 +719,7 @@
             </h2>
             
             <div class="container comoajudar-lista">
-              <ul class="secao comoajudar-lista">
+              <ul class="comoajudar-lista">
                 <li>
                   <img 
                   src="https://www.hashtagtreinamentos.com/wp-content/uploads/2022/06/ELEMENTO-check_1.png"
@@ -774,7 +774,7 @@
                 </p>
 
                 <p class="comoajudar-paragrafo">
-                  Com mais de <b>84.600</b> alunos treinados em todo o Brasil, em
+                  Com mais de <b class="realce-semibold">84.600</b> alunos treinados em todo o Brasil, em
                   Programas Presenciais e Online, a Hashtag Treinamentos sabe
                   exatamente como ajudar seus alunos a se tornarem referências onde
                   trabalham ou onde pensam em trabalhar.
@@ -789,7 +789,7 @@
                 <p class="comoajudar-paragrafo">
                   Se o seu objetivo é se preparar para o mercado de trabalho e se
                   tornar um
-                  <b>destaque</b> dentro da empresa onde você trabalha ou vai
+                  <b class="realce-semibold">destaque</b> dentro da empresa onde você trabalha ou vai
                   trabalhar, então podemos te ajudar.
                 </p>
 
@@ -819,36 +819,40 @@
 
       <!-- Seção Minicurso -->
       <section class="secao minicurso-secao">
-        <h2>
-          Cadastre-se e receba um
-          <span class="realce-semibold">minicurso de graça</span>!
-        </h2>
+       <div class="container minicurso-conteiner">
+          <h2>
+            Cadastre-se e receba um
+            <span class="realce-semibold">minicurso de graça</span>!
+          </h2>
 
-        <form action="">
-          <div>
-            <label for="name">Nome</label>
-            <input
-              type="text"
-              id="name"
-              name="name"
-              placeholder="*Seu primeiro nome"
-              required
-            />
-          </div>
+          <form class="minicurso-form" action="">
+            <div class="minicurso-input-div">
+              <label for="name">Nome</label>
+              <input
+                class="minicurso-input"
+                type="text"
+                id="name"
+                name="name"
+                placeholder="*Seu primeiro nome"
+                required
+              />
+            </div>
 
-          <div>
-            <label for="name">E-mail</label>
-            <input
-              type="email"
-              id="email"
-              name="email"
-              placeholder="*Seu melhor e-mail"
-              required
-            />
-          </div>
+            <div class="minicurso-input-div">
+              <label for="name">E-mail</label>
+              <input
+                class="minicurso-input"
+                type="email"
+                id="email"
+                name="email"
+                placeholder="*Seu melhor e-mail"
+                required
+              />
+            </div>
 
-          <button type="submit">Enviar</button>
-        </form>
+            <button class="botao minicurso-botao" type="submit">Enviar</button>
+          </form>
+       </div>
       </section>
     </main>
 
@@ -1096,7 +1100,7 @@
 
       <a
         href="https://api.whatsapp.com/send?phone=5521996582442&text=Ol%C3%A1%2C%20gostaria%20de%20tirar%20uma%20d%C3%BAvida%20%20sobre%20o%20curso%20online"
-        ><img
+        ><img class="whatsapp-logo"
           src="https://www.hashtagtreinamentos.com/wp-content/uploads/2023/06/whatsapp-logo-2.png"
           alt="Logo do WhatsApp"
       /></a>
