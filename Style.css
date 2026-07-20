@@ -624,14 +624,36 @@ strong,
 }
 
 /* ---------- Rodapé ---------- */
+.rodape-container {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  width: 106rem;
+  align-items: start;
+  gap: 4.88rem;
+}
+
+.rodape-conteudo-caixa {
+  display: flex;
+  flex-flow: column;
+  gap: 3rem;
+}
+
+.rodape-hashtag-logo {
+  width: 18rem;
+  height: 8.64rem;
+  padding-right: 2rem;
+}
+
 .rodape-titulo {
   font-weight: 600;
   font-size: 2.2rem;
+  padding-bottom: 1rem;
 }
 
 .rodape-subtitulo {
   font-size: 2rem;
   font-weight: 500;
+  padding-bottom: 1rem;
 }
 
 .rodape-seg-subtitulo {
@@ -641,6 +663,40 @@ strong,
 
 .rodape-link {
   color: #1a77a4;
+}
+
+.rodape-faleconosco-logo {
+  width: 2.4rem;
+  height: 2.4rem;
+}
+
+.rodape-newsletter-form {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.rodape-newsletter-input-div {
+  display: flex;
+  flex-flow: column;
+  gap: 1rem;
+}
+
+.rodape-newsletter-input {
+  padding: 1.02rem;
+  border-radius: 0.8rem;
+  background-color: white;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  color: #404040;
+}
+
+.rodape-newsletter-botao {
+  background-color: #1a77a4;
+  border-bottom-color: #0c374d;
+  border-right-color: #0c374d;
 }
 
 .whatsapp-logo {
